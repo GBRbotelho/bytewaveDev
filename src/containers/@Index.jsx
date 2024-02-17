@@ -8,6 +8,7 @@ import Container2 from "./Container2";
 import Container3 from "./Container3";
 import Container4 from "./Container4";
 import Container5 from "./Container5";
+import Container6 from "./Container6";
 
 export default function Index() {
   return (
@@ -19,7 +20,10 @@ export default function Index() {
       <Container2 />
       <Container3 />
       <Container4 />
-      <Container5 />
+      <div className={styles.background2}>
+        <Container5 />
+        <Container6 />
+      </div>
     </main>
   );
 }
