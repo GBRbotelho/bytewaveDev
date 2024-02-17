@@ -1,0 +1,53 @@
+.section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 380px;
+  width: 100vw;
+  background-color: #090909;
+  color: #ffffff;
+}
+
+.container {
+  width: 1920px;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  flex: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo img {
+  width: 320px;
+}
+
+.dataDiv {
+  flex: 75%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 40px;
+}
+
+.dataDiv span,
+.dataDiv p {
+  margin: 0;
+  font-size: 40px;
+}
+
+.dataDiv span {
+  color: #9cafc7;
+}
+
+.dataDiv a {
+  text-decoration: none;
+  color: white;
+}
+
+.dataDiv a:hover {
+  color: #5271ff;
+}
