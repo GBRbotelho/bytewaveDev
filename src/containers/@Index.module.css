@@ -1,0 +1,13 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.background1 {
+  width: 100vw;
+  background-image: url("../assets/imgs/background1.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
