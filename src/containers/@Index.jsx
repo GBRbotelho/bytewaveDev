@@ -5,6 +5,7 @@ import styles from "./@Index.module.css";
 import Navbar from "./@Navbar";
 import Container1 from "./Container1";
 import Container2 from "./Container2";
+import Container3 from "./Container3";
 
 export default function Index() {
   return (
@@ -14,6 +15,7 @@ export default function Index() {
         <Container1 />
       </div>
       <Container2 />
+      <Container3 />
     </main>
   );
 }

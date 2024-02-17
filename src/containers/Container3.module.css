@@ -1,0 +1,103 @@
+.section {
+  display: flex;
+  width: 100vw;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 0px;
+  background-color: #0a0a0a;
+}
+
+.container {
+  width: 1920px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+}
+
+.divTitle {
+  width: 95%;
+  border-left: 6px solid #ffffff;
+}
+
+.title {
+  font-size: 45px;
+  color: #5271ff;
+  margin: 0;
+  padding-left: 20px;
+}
+
+.containerCards {
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.card {
+  width: 400px;
+  height: 480px;
+  border: 5px dashed #ffffff;
+  border-radius: 22px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.titleCard {
+  width: 80%;
+  display: flex;
+  color: #ffffff;
+  align-items: center;
+  gap: 10px;
+}
+
+.titleCard h2 {
+  margin: 0px;
+  padding: 0px;
+  font-size: 50px;
+}
+
+.titleCard p {
+  padding: 0px;
+  margin: 0px;
+  margin-top: -15px;
+  font-size: 28px;
+}
+
+.dataCard {
+  color: #ffffff;
+  font-size: 26px;
+  width: 80%;
+}
+
+.icon {
+  width: 75px;
+  height: 75px;
+  padding: 5px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon img {
+  width: 80%;
+}
+
+.seta {
+  width: 400px;
+  height: 320px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.seta img {
+  width: 80px;
+}
