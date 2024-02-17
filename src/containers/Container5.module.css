@@ -1,0 +1,73 @@
+.section {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 800px;
+  background-color: #0a0a0a;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 1870px;
+  padding: 50px 0px;
+  gap: 100px;
+  background-color: #5271ff;
+  border-radius: 22px;
+}
+
+.divTitle {
+  width: 95%;
+  border-left: 6px solid #090909;
+}
+
+.title {
+  font-size: 45px;
+  color: #ffffff;
+  margin: 0;
+  padding-left: 20px;
+}
+
+.cards {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.card {
+  width: 525px;
+  height: 438px;
+  background-color: #ffffff;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+}
+
+.card p {
+  font-size: 29px;
+  width: 445px;
+  margin: 0;
+}
+
+.circle {
+  width: 81px;
+  height: 81px;
+  border-radius: 50px;
+  background-color: #5271ff;
+}
+
+.dataCard span {
+  margin: 0;
+  font-size: 29px;
+  color: #5271ff;
+}
+
+.dataCard p {
+  margin: 0;
+}
