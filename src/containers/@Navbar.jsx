@@ -60,7 +60,7 @@ export default function Navbar() {
         </ul>
       </div>
       <div className={styles.button}>
-        <a href="https://wa.me/19974026227">
+        <a href="https://wa.me/19998631040">
           <button>
             <img src={Wpp} alt="Icone WhatsApp" />
             ORÇAMENTO
@@ -82,7 +82,7 @@ export default function Navbar() {
           <li onClick={() => scrollToSection("clientes")}>CLIENTES</li>
           <li onClick={() => scrollToSection("sobre")}>SOBRE</li>
           <div className={styles.button}>
-            <a href="https://wa.me/19974026227">
+            <a href="https://wa.me/19998631040">
               <button>
                 <img src={Wpp} alt="Icone WhatsApp" />
                 ORÇAMENTO
