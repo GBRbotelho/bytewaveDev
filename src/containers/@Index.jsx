@@ -25,7 +25,7 @@ export default function Index() {
         <Container5 />
         <Container6 />
       </div>
-      {/* <Container7 /> */}
+      <Container7 />
     </main>
   );
 }
