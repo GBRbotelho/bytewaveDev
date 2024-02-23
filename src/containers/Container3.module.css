@@ -39,7 +39,7 @@
 
 .card {
   width: 400px;
-  height: 480px;
+  height: 510px;
   border: 5px dashed #ffffff;
   border-radius: 22px;
   display: flex;
@@ -100,4 +100,248 @@
 
 .seta img {
   width: 80px;
+}
+
+@media (max-width: 1830px) {
+  :root {
+    --factor: 0.95;
+  }
+
+  .section {
+    padding: calc(50px * var(--factor)) 0px;
+  }
+
+  .container {
+    width: 1830px;
+    gap: calc(60px * var(--factor));
+  }
+
+  .divTitle {
+    border-left: calc(6px * var(--factor)) solid #ffffff;
+  }
+
+  .title {
+    font-size: calc(45px * var(--factor));
+    padding-left: calc(20px * var(--factor));
+  }
+
+  .containerCards {
+    gap: calc(20px * var(--factor));
+  }
+
+  .card {
+    width: calc(400px * var(--factor));
+    height: calc(510px * var(--factor));
+    border: calc(5px * var(--factor)) dashed #ffffff;
+    border-radius: calc(22px * var(--factor));
+  }
+
+  .titleCard {
+    gap: calc(10px * var(--factor));
+  }
+
+  .titleCard h2 {
+    font-size: calc(50px * var(--factor));
+  }
+
+  .titleCard p {
+    margin-top: calc(-15px * var(--factor));
+    font-size: calc(28px * var(--factor));
+  }
+
+  .dataCard {
+    font-size: calc(26px * var(--factor));
+  }
+
+  .icon {
+    width: calc(75px * var(--factor));
+    height: calc(75px * var(--factor));
+    padding: calc(5px * var(--factor));
+  }
+
+  .seta {
+    width: calc(400px * var(--factor));
+    height: calc(320px * var(--factor));
+  }
+
+  .seta img {
+    width: calc(80px * var(--factor));
+  }
+}
+
+@media (max-width: 1776px) {
+  :root {
+    --factor: 0.925;
+  }
+
+  .container {
+    width: 1776px;
+  }
+}
+
+@media (max-width: 1730px) {
+  :root {
+    --factor: 0.9;
+  }
+
+  .container {
+    width: 1730px;
+  }
+}
+
+@media (max-width: 1680px) {
+  :root {
+    --factor: 0.875;
+  }
+
+  .container {
+    width: 1680px;
+  }
+}
+
+@media (max-width: 1630px) {
+  :root {
+    --factor: 0.85;
+  }
+
+  .container {
+    width: 1630px;
+  }
+}
+
+@media (max-width: 1584px) {
+  :root {
+    --factor: 0.825;
+  }
+
+  .container {
+    width: 1584px;
+  }
+}
+
+@media (max-width: 1530px) {
+  :root {
+    --factor: 0.8;
+  }
+
+  .container {
+    width: 1530px;
+  }
+}
+
+@media (max-width: 1490px) {
+  :root {
+    --factor: 0.775;
+  }
+
+  .container {
+    width: 1490px;
+  }
+}
+
+@media (max-width: 1440px) {
+  :root {
+    --factor: 0.75;
+  }
+
+  .container {
+    width: 1440px;
+  }
+}
+
+@media (max-width: 1392px) {
+  :root {
+    --factor: 0.725;
+  }
+
+  .container {
+    width: 1392px;
+  }
+}
+
+@media (max-width: 1350px) {
+  :root {
+    --factor: 0.7;
+  }
+
+  .container {
+    width: 1350px;
+  }
+}
+
+@media (max-width: 1296px) {
+  :root {
+    --factor: 0.675;
+  }
+
+  .container {
+    width: 1296px;
+  }
+}
+
+@media (max-width: 1250px) {
+  :root {
+    --factor: 0.65;
+  }
+
+  .container {
+    width: 1250px;
+  }
+}
+
+@media (max-width: 1200px) {
+  :root {
+    --factor: 0.625;
+  }
+
+  .container {
+    width: 1200px;
+  }
+}
+
+@media (max-width: 1150px) {
+  :root {
+    --factor: 0.6;
+  }
+
+  .container {
+    width: 1150px;
+  }
+}
+
+@media (max-width: 1105px) {
+  :root {
+    --factor: 0.575;
+  }
+
+  .container {
+    width: 1105px;
+  }
+}
+
+@media (max-width: 1056px) {
+  :root {
+    --factor: 0.55;
+  }
+
+  .container {
+    width: 1056px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .containerCards {
+    width: 600px;
+    flex-wrap: wrap;
+  }
+
+  .seta {
+    display: none;
+  }
+}
+
+@media (max-width: 650px) {
+  .containerCards {
+    width: 300px;
+  }
 }

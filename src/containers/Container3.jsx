@@ -7,6 +7,13 @@ import icon2 from "../assets/imgs/9.svg";
 import icon3 from "../assets/imgs/10.svg";
 import icon4 from "../assets/imgs/11.svg";
 
+//Setas
+
+import seta1 from "../assets/imgs/16.png";
+import seta2 from "../assets/imgs/17.png";
+import seta3 from "../assets/imgs/18.png";
+import seta4 from "../assets/imgs/19.png";
+
 export default function Container3() {
   return (
     <section className={styles.section} id="servicos">
@@ -30,17 +37,17 @@ export default function Container3() {
                 <p>
                   Entendemos como seu negócio funciona, qual seu publico idela,
                   seus principais concorrentes e quais estrategias de rentenção
-                  podemos usar para tranformar seu negocio
+                  podemos usar para tranformar seu negocio.
                 </p>
               </div>
             </div>
             <div className={styles.seta}>
-              <img src={icon1}></img>
+              <img src={seta1}></img>
             </div>
           </div>
           <div className={styles.divCard}>
             <div className={styles.seta}>
-              <img src={icon1}></img>
+              <img src={seta2}></img>
             </div>
             <div className={styles.card}>
               <div className={styles.titleCard}>
@@ -54,9 +61,8 @@ export default function Container3() {
               </div>
               <div className={styles.dataCard}>
                 <p>
-                  Entendemos como seu negócio funciona, qual seu publico idela,
-                  seus principais concorrentes e quais estrategias de rentenção
-                  podemos usar para tranformar seu negocio
+                  Com base nas informações coletadas no passo 1, criamos 2
+                  opções viaveis para você escolher.
                 </p>
               </div>
             </div>
@@ -74,19 +80,18 @@ export default function Container3() {
               </div>
               <div className={styles.dataCard}>
                 <p>
-                  Entendemos como seu negócio funciona, qual seu publico idela,
-                  seus principais concorrentes e quais estrategias de rentenção
-                  podemos usar para tranformar seu negocio
+                  Utilizaremos as melhores tecnologias do mercado para construir
+                  um sistema com o melhor desempenho e SEO otmizado.
                 </p>
               </div>
             </div>
             <div className={styles.seta}>
-              <img src={icon1}></img>
+              <img src={seta3}></img>
             </div>
           </div>
           <div className={styles.divCard}>
             <div className={styles.seta}>
-              <img src={icon1}></img>
+              <img src={seta4}></img>
             </div>
             <div className={styles.card}>
               <div className={styles.titleCard}>
@@ -100,9 +105,9 @@ export default function Container3() {
               </div>
               <div className={styles.dataCard}>
                 <p>
-                  Entendemos como seu negócio funciona, qual seu publico idela,
-                  seus principais concorrentes e quais estrategias de rentenção
-                  podemos usar para tranformar seu negocio
+                  Levamos o sistema para uma ultima aprovação e subimos no
+                  dominio desejado. acompanhamos por 1 mês bem de perto as
+                  metricas para garantir a melhor experiencia dos seus clientes.
                 </p>
               </div>
             </div>
