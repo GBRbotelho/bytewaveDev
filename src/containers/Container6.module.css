@@ -45,3 +45,223 @@
 .button button:hover {
   transform: scale(1.1);
 }
+
+@media (max-width: 1830px) {
+  :root {
+    --factor: 0.95;
+  }
+
+  .section {
+    height: calc(205px * var(--factor));
+  }
+
+  .container {
+    width: 1920px;
+  }
+
+  .text p {
+    width: calc(1105px * var(--factor));
+    font-size: calc(40px * var(--factor));
+  }
+
+  .button button {
+    border: calc(5px * var(--factor)) solid;
+    border-radius: calc(21px * var(--factor));
+    font-size: calc(40px * var(--factor));
+    padding: calc(10px * var(--factor)) calc(50px * var(--factor));
+  }
+}
+
+@media (max-width: 1776px) {
+  :root {
+    --factor: 0.925;
+  }
+
+  .container {
+    width: 1776px;
+  }
+}
+
+@media (max-width: 1730px) {
+  :root {
+    --factor: 0.9;
+  }
+
+  .container {
+    width: 1730px;
+  }
+}
+
+@media (max-width: 1680px) {
+  :root {
+    --factor: 0.875;
+  }
+
+  .container {
+    width: 1680px;
+  }
+}
+
+@media (max-width: 1630px) {
+  :root {
+    --factor: 0.85;
+  }
+
+  .container {
+    width: 1630px;
+  }
+}
+
+@media (max-width: 1584px) {
+  :root {
+    --factor: 0.825;
+  }
+
+  .container {
+    width: 1584px;
+  }
+}
+
+@media (max-width: 1530px) {
+  :root {
+    --factor: 0.8;
+  }
+
+  .container {
+    width: 1530px;
+  }
+}
+
+@media (max-width: 1490px) {
+  :root {
+    --factor: 0.775;
+  }
+
+  .container {
+    width: 1490px;
+  }
+}
+
+@media (max-width: 1440px) {
+  :root {
+    --factor: 0.75;
+  }
+
+  .container {
+    width: 1440px;
+  }
+}
+
+@media (max-width: 1392px) {
+  :root {
+    --factor: 0.725;
+  }
+
+  .container {
+    width: 1392px;
+  }
+}
+
+@media (max-width: 1350px) {
+  :root {
+    --factor: 0.7;
+  }
+
+  .container {
+    width: 1350px;
+  }
+}
+
+@media (max-width: 1296px) {
+  :root {
+    --factor: 0.675;
+  }
+
+  .container {
+    width: 1296px;
+  }
+}
+
+@media (max-width: 1250px) {
+  :root {
+    --factor: 0.65;
+  }
+
+  .container {
+    width: 1250px;
+  }
+}
+
+@media (max-width: 1200px) {
+  :root {
+    --factor: 0.625;
+  }
+
+  .container {
+    width: 1200px;
+  }
+}
+
+@media (max-width: 1150px) {
+  :root {
+    --factor: 0.6;
+  }
+
+  .container {
+    width: 1150px;
+  }
+}
+
+@media (max-width: 1105px) {
+  :root {
+    --factor: 0.575;
+  }
+
+  .container {
+    width: 1105px;
+  }
+}
+
+@media (max-width: 1056px) {
+  :root {
+    --factor: 0.55;
+  }
+
+  .container {
+    width: 1056px;
+  }
+}
+
+@media (max-width: 930px) {
+  .section {
+    height: auto;
+  }
+
+  .container {
+    width: 95%;
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .text p {
+    width: 100%;
+    font-size: calc(40px * 0.45);
+    flex-wrap: wrap;
+  }
+
+  .text {
+    flex: wrap;
+  }
+
+  .button button {
+    border: calc(5px * 0.45) solid;
+    border-radius: calc(21px * 0.45);
+    font-size: calc(40px * 0.45);
+    padding: calc(10px * 0.45) calc(50px * 0.45);
+  }
+}

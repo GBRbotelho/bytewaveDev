@@ -23,7 +23,7 @@ export default function Index() {
       <Container4 />
       <div className={styles.background2}>
         <Container5 />
-        {/* <Container6 /> */}
+        <Container6 />
       </div>
       {/* <Container7 /> */}
     </main>
