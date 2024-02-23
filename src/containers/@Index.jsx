@@ -20,8 +20,8 @@ export default function Index() {
       </div>
       <Container2 />
       <Container3 />
-      {/* <Container4 />
-      <div className={styles.background2}>
+      <Container4 />
+      {/* <div className={styles.background2}>
         <Container5 />
         <Container6 />
       </div>
