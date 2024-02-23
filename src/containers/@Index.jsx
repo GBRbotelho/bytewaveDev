@@ -21,11 +21,11 @@ export default function Index() {
       <Container2 />
       <Container3 />
       <Container4 />
-      {/* <div className={styles.background2}>
+      <div className={styles.background2}>
         <Container5 />
-        <Container6 />
+        {/* <Container6 /> */}
       </div>
-      <Container7 /> */}
+      {/* <Container7 /> */}
     </main>
   );
 }

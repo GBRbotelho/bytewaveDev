@@ -20,3 +20,118 @@
   background-color: #5271ff;
   border-radius: 22px;
 }
+
+@media (max-width: 1830px) {
+  :root {
+    --factor: 0.95;
+  }
+
+  .background2 {
+    margin: calc(20px * var(--factor)) 0px;
+    width: calc(1840px * var(--factor));
+    padding: calc(20px * var(--factor));
+    border-radius: calc(22px * var(--factor));
+  }
+}
+
+@media (max-width: 1776px) {
+  :root {
+    --factor: 0.925;
+  }
+}
+
+@media (max-width: 1730px) {
+  :root {
+    --factor: 0.9;
+  }
+}
+
+@media (max-width: 1680px) {
+  :root {
+    --factor: 0.875;
+  }
+}
+
+@media (max-width: 1630px) {
+  :root {
+    --factor: 0.85;
+  }
+}
+
+@media (max-width: 1584px) {
+  :root {
+    --factor: 0.825;
+  }
+}
+
+@media (max-width: 1530px) {
+  :root {
+    --factor: 0.8;
+  }
+}
+
+@media (max-width: 1490px) {
+  :root {
+    --factor: 0.775;
+  }
+}
+
+@media (max-width: 1440px) {
+  :root {
+    --factor: 0.75;
+  }
+}
+
+@media (max-width: 1392px) {
+  :root {
+    --factor: 0.725;
+  }
+}
+
+@media (max-width: 1350px) {
+  :root {
+    --factor: 0.7;
+  }
+}
+
+@media (max-width: 1296px) {
+  :root {
+    --factor: 0.675;
+  }
+}
+
+@media (max-width: 1250px) {
+  :root {
+    --factor: 0.65;
+  }
+}
+
+@media (max-width: 1200px) {
+  :root {
+    --factor: 0.625;
+  }
+}
+
+@media (max-width: 1150px) {
+  :root {
+    --factor: 0.6;
+  }
+}
+
+@media (max-width: 1105px) {
+  :root {
+    --factor: 0.575;
+  }
+}
+
+@media (max-width: 1056px) {
+  :root {
+    --factor: 0.55;
+  }
+}
+
+@media (max-width: 1055px) {
+  .background2 {
+    width: 90%;
+  }
+}
