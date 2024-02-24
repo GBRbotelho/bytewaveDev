@@ -99,7 +99,7 @@
 }
 
 .seta img {
-  width: 80px;
+  width: 150px;
 }
 
 @media (max-width: 1830px) {
@@ -165,7 +165,7 @@
   }
 
   .seta img {
-    width: calc(80px * var(--factor));
+    width: calc(150px * var(--factor));
   }
 }
 

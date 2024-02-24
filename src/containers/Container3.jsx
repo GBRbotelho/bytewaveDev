@@ -35,9 +35,9 @@ export default function Container3() {
               </div>
               <div className={styles.dataCard}>
                 <p>
-                  Entendemos como seu negócio funciona, qual seu publico idela,
+                  Entendemos como seu negócio funciona, qual seu publico ideal,
                   seus principais concorrentes e quais estrategias de rentenção
-                  podemos usar para tranformar seu negocio.
+                  podemos usar para transformar seu negocio
                 </p>
               </div>
             </div>

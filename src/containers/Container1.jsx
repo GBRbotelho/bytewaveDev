@@ -12,7 +12,10 @@ export default function Container1() {
           <div className={styles.cardDiv1}>
             <div className={styles.dataCardDiv1}>
               <h1>Expanda sua empresa com nossas soluções</h1>
-              <p>Faça agora um orçamento com um dos nossos especialistas</p>
+              <p>
+                Sites personalizados focados em conectar sua empresa com seus
+                clientes
+              </p>
             </div>
             <a href="https://wa.me/19998631040">
               <button>COMEÇAR</button>
