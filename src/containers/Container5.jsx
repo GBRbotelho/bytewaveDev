@@ -6,6 +6,11 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 
+import img1 from "../assets/imgs/comments/1.png";
+import img2 from "../assets/imgs/comments/2.png";
+import img3 from "../assets/imgs/comments/3.png";
+import img4 from "../assets/imgs/comments/4.png";
+
 export default function Container5() {
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
 
@@ -28,34 +33,42 @@ export default function Container5() {
           <div className={styles.cards}>
             <div className={styles.card}>
               <p>
-                Entendemos como seu negócio funciona, qual seu publico idela,
-                seus principais concorrentes e quais{" "}
+                Fizeram o meu site, estou muito contente com o resultado, todos
+                foram muito atenciosos ao me explicar e tirar minhas dúvidas,
+                com certeza indico!
               </p>
               <div className={styles.dataCard}>
-                <div className={styles.circle}></div>
-                <p>Pedro henrique</p>
+                <div className={styles.circle}>
+                  <img src={img1} />
+                </div>
+                <p>Pedro Souza</p>
                 <span>CEO</span>
               </div>
             </div>
             <div className={styles.card}>
               <p>
-                Entendemos como seu negócio funciona, qual seu publico idela,
-                seus principais concorrentes e quais{" "}
+                Sempre muito bem atendida, fizeram meu sistema do zero e me
+                atende super bem o sistema facilitando minha vida no
+                consultório. Estão sempre prontos para ajudar.
               </p>
               <div className={styles.dataCard}>
-                <div className={styles.circle}></div>
-                <p>Pedro henrique</p>
+                <div className={styles.circle}>
+                  <img src={img2} />
+                </div>
+                <p>Gabriela Tintori</p>
                 <span>CEO</span>
               </div>
             </div>
             <div className={styles.card}>
               <p>
-                Entendemos como seu negócio funciona, qual seu publico idela,
-                seus principais concorrentes e quais{" "}
+                Otima empresa e bem atenciosos, foram muito transparentes e
+                rapidos na entrega do site.
               </p>
               <div className={styles.dataCard}>
-                <div className={styles.circle}></div>
-                <p>Pedro henrique</p>
+                <div className={styles.circle}>
+                  <img src={img3} />
+                </div>
+                <p>Lucila Martins</p>
                 <span>CEO</span>
               </div>
             </div>
@@ -74,12 +87,15 @@ export default function Container5() {
               <SwiperSlide className={styles.swiperCard}>
                 <div className={styles.card}>
                   <p>
-                    Entendemos como seu negócio funciona, qual seu publico
-                    idela, seus principais concorrentes e quais{" "}
+                    Fizeram o meu site, estou muito contente com o resultado,
+                    todos foram muito atenciosos ao me explicar e tirar minhas
+                    dúvidas, com certeza indico!
                   </p>
                   <div className={styles.dataCard}>
-                    <div className={styles.circle}></div>
-                    <p>Pedro henrique</p>
+                    <div className={styles.circle}>
+                      <img src={img1} />
+                    </div>
+                    <p>Pedro Souza</p>
                     <span>CEO</span>
                   </div>
                 </div>
@@ -87,12 +103,45 @@ export default function Container5() {
               <SwiperSlide className={styles.swiperCard}>
                 <div className={styles.card}>
                   <p>
-                    Entendemos como seu negócio funciona, qual seu publico
-                    idela, seus principais concorrentes e quais{" "}
+                    Sempre muito bem atendida, fizeram meu sistema do zero e me
+                    atende super bem o sistema facilitando minha vida no
+                    consultório. Estão sempre prontos para ajudar.
                   </p>
                   <div className={styles.dataCard}>
-                    <div className={styles.circle}></div>
-                    <p>Pedro henrique</p>
+                    <div className={styles.circle}>
+                      <img src={img2} />
+                    </div>
+                    <p>Gabriela Tintori</p>
+                    <span>CEO</span>
+                  </div>
+                </div>
+              </SwiperSlide>
+              <SwiperSlide className={styles.swiperCard}>
+                <div className={styles.card}>
+                  <p>
+                    Otima empresa e bem atenciosos, foram muito transparentes e
+                    rapidos na entrega do site.
+                  </p>
+                  <div className={styles.dataCard}>
+                    <div className={styles.circle}>
+                      <img src={img3} />
+                    </div>
+                    <p>Lucila Martins</p>
+                    <span>CEO</span>
+                  </div>
+                </div>
+              </SwiperSlide>
+              <SwiperSlide className={styles.swiperCard}>
+                <div className={styles.card}>
+                  <p>
+                    Me atenderam super bem, sempre me apresentando ótimos
+                    resultados e atendendo minhas necessidades. Super indico.
+                  </p>
+                  <div className={styles.dataCard}>
+                    <div className={styles.circle}>
+                      <img src={img4} />
+                    </div>
+                    <p>Elaine Rodrigues</p>
                     <span>CEO</span>
                   </div>
                 </div>
