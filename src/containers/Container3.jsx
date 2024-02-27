@@ -26,7 +26,7 @@ export default function Container3() {
             <div className={styles.card}>
               <div className={styles.titleCard}>
                 <div className={styles.icon}>
-                  <img src={icon1} alt="" />
+                  <img src={icon1} alt="Icone Ideia" />
                 </div>
                 <div>
                   <h2>Ideia</h2>
@@ -42,17 +42,17 @@ export default function Container3() {
               </div>
             </div>
             <div className={styles.seta}>
-              <img src={seta1}></img>
+              <img src={seta1} alt="Seta"></img>
             </div>
           </div>
           <div className={styles.divCard}>
             <div className={styles.seta}>
-              <img src={seta2}></img>
+              <img src={seta2} alt="Seta"></img>
             </div>
             <div className={styles.card}>
               <div className={styles.titleCard}>
                 <div className={styles.icon}>
-                  <img src={icon2} alt="" />
+                  <img src={icon2} alt="Icone MVP" />
                 </div>
                 <div>
                   <h2>MVP</h2>
@@ -71,7 +71,7 @@ export default function Container3() {
             <div className={styles.card}>
               <div className={styles.titleCard}>
                 <div className={styles.icon}>
-                  <img src={icon3} alt="" />
+                  <img src={icon3} alt="Icone Build" />
                 </div>
                 <div>
                   <h2>Build</h2>
@@ -86,17 +86,17 @@ export default function Container3() {
               </div>
             </div>
             <div className={styles.seta}>
-              <img src={seta3}></img>
+              <img src={seta3} alt="Seta"></img>
             </div>
           </div>
           <div className={styles.divCard}>
             <div className={styles.seta}>
-              <img src={seta4}></img>
+              <img src={seta4} alt="Seta"></img>
             </div>
             <div className={styles.card}>
               <div className={styles.titleCard}>
                 <div className={styles.icon}>
-                  <img src={icon4} alt="" />
+                  <img src={icon4} alt="Icone Entrega" />
                 </div>
                 <div>
                   <h2>Entrega</h2>

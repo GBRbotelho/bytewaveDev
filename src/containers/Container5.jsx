@@ -39,7 +39,7 @@ export default function Container5() {
               </p>
               <div className={styles.dataCard}>
                 <div className={styles.circle}>
-                  <img src={img1} />
+                  <img src={img1} alt="Foto Comentario" />
                 </div>
                 <p>Pedro Souza</p>
                 <span>CEO</span>
@@ -53,7 +53,7 @@ export default function Container5() {
               </p>
               <div className={styles.dataCard}>
                 <div className={styles.circle}>
-                  <img src={img2} />
+                  <img src={img2} alt="Foto Comentario" />
                 </div>
                 <p>Gabriela Tintori</p>
                 <span>CEO</span>
@@ -66,7 +66,7 @@ export default function Container5() {
               </p>
               <div className={styles.dataCard}>
                 <div className={styles.circle}>
-                  <img src={img3} />
+                  <img src={img3} alt="Foto Comentario" />
                 </div>
                 <p>Lucila Martins</p>
                 <span>CEO</span>
@@ -93,7 +93,7 @@ export default function Container5() {
                   </p>
                   <div className={styles.dataCard}>
                     <div className={styles.circle}>
-                      <img src={img1} />
+                      <img src={img1} alt="Foto Comentario" />
                     </div>
                     <p>Pedro Souza</p>
                     <span>CEO</span>
@@ -109,7 +109,7 @@ export default function Container5() {
                   </p>
                   <div className={styles.dataCard}>
                     <div className={styles.circle}>
-                      <img src={img2} />
+                      <img src={img2} alt="Foto Comentario" />
                     </div>
                     <p>Gabriela Tintori</p>
                     <span>CEO</span>
@@ -124,7 +124,7 @@ export default function Container5() {
                   </p>
                   <div className={styles.dataCard}>
                     <div className={styles.circle}>
-                      <img src={img3} />
+                      <img src={img3} alt="Foto Comentario" />
                     </div>
                     <p>Lucila Martins</p>
                     <span>CEO</span>
@@ -139,7 +139,7 @@ export default function Container5() {
                   </p>
                   <div className={styles.dataCard}>
                     <div className={styles.circle}>
-                      <img src={img4} />
+                      <img src={img4} alt="Foto Comentario" />
                     </div>
                     <p>Elaine Rodrigues</p>
                     <span>CEO</span>
