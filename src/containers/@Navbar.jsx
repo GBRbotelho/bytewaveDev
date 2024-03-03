@@ -48,10 +48,10 @@ export default function Navbar() {
     <nav
       className={`${styles.nav} ${visible ? styles.visible : styles.hidden}`}
     >
-      <div className={styles.logo}>
+      <div className={styles.logo} data-aos="zoom-in-down">
         <img src={Logo} alt="Logo Bytewave" />
       </div>
-      <div className={styles.menu}>
+      <div className={styles.menu} data-aos="zoom-in-down">
         <ul>
           <li onClick={() => scrollToSection("home")}>HOME</li>
           <li onClick={() => scrollToSection("servicos")}>SERVIÇOS</li>
@@ -59,7 +59,7 @@ export default function Navbar() {
           <li onClick={() => scrollToSection("sobre")}>SOBRE</li>
         </ul>
       </div>
-      <div className={styles.button}>
+      <div className={styles.button} data-aos="zoom-in-down">
         <a href="https://wa.me/19998631040">
           <button>
             <img src={Wpp} alt="Icone WhatsApp" />
@@ -67,7 +67,11 @@ export default function Navbar() {
           </button>
         </a>
       </div>
-      <div onClick={toggleDropdown} className={styles.hamburger}>
+      <div
+        onClick={toggleDropdown}
+        className={styles.hamburger}
+        data-aos="zoom-in-down"
+      >
         <img
           alt="Icone Menu Hamburguer e Icone Fechar"
           src={isDropdownOpen ? Close : MenuHamburger}
