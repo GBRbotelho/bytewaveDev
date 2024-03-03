@@ -33,9 +33,9 @@ export default function Container5() {
           <div className={styles.cards}>
             <div className={styles.card}>
               <p>
-                Fizeram o meu site, estou muito contente com o resultado, todos
+                "Fizeram o meu site, estou muito contente com o resultado, todos
                 foram muito atenciosos ao me explicar e tirar minhas dúvidas,
-                com certeza indico!
+                com certeza indico!"
               </p>
               <div className={styles.dataCard}>
                 <div className={styles.circle}>
@@ -47,9 +47,9 @@ export default function Container5() {
             </div>
             <div className={styles.card}>
               <p>
-                Sempre muito bem atendida, fizeram meu sistema do zero e me
+                "Sempre muito bem atendida, fizeram meu sistema do zero e me
                 atende super bem o sistema facilitando minha vida no
-                consultório. Estão sempre prontos para ajudar.
+                consultório. Estão sempre prontos para ajudar."
               </p>
               <div className={styles.dataCard}>
                 <div className={styles.circle}>
@@ -61,8 +61,8 @@ export default function Container5() {
             </div>
             <div className={styles.card}>
               <p>
-                Otima empresa e bem atenciosos, foram muito transparentes e
-                rapidos na entrega do site.
+                "Otima empresa e bem atenciosos, foram muito transparentes e
+                rapidos na entrega do site."
               </p>
               <div className={styles.dataCard}>
                 <div className={styles.circle}>
@@ -87,9 +87,9 @@ export default function Container5() {
               <SwiperSlide className={styles.swiperCard}>
                 <div className={styles.card}>
                   <p>
-                    Fizeram o meu site, estou muito contente com o resultado,
+                    "Fizeram o meu site, estou muito contente com o resultado,
                     todos foram muito atenciosos ao me explicar e tirar minhas
-                    dúvidas, com certeza indico!
+                    dúvidas, com certeza indico!"
                   </p>
                   <div className={styles.dataCard}>
                     <div className={styles.circle}>
@@ -103,9 +103,9 @@ export default function Container5() {
               <SwiperSlide className={styles.swiperCard}>
                 <div className={styles.card}>
                   <p>
-                    Sempre muito bem atendida, fizeram meu sistema do zero e me
+                    "Sempre muito bem atendida, fizeram meu sistema do zero e me
                     atende super bem o sistema facilitando minha vida no
-                    consultório. Estão sempre prontos para ajudar.
+                    consultório. Estão sempre prontos para ajudar."
                   </p>
                   <div className={styles.dataCard}>
                     <div className={styles.circle}>
@@ -119,8 +119,8 @@ export default function Container5() {
               <SwiperSlide className={styles.swiperCard}>
                 <div className={styles.card}>
                   <p>
-                    Otima empresa e bem atenciosos, foram muito transparentes e
-                    rapidos na entrega do site.
+                    "Otima empresa e bem atenciosos, foram muito transparentes e
+                    rapidos na entrega do site."
                   </p>
                   <div className={styles.dataCard}>
                     <div className={styles.circle}>
@@ -134,8 +134,8 @@ export default function Container5() {
               <SwiperSlide className={styles.swiperCard}>
                 <div className={styles.card}>
                   <p>
-                    Me atenderam super bem, sempre me apresentando ótimos
-                    resultados e atendendo minhas necessidades. Super indico.
+                    "Me atenderam super bem, sempre me apresentando ótimos
+                    resultados e atendendo minhas necessidades. Super indico."
                   </p>
                   <div className={styles.dataCard}>
                     <div className={styles.circle}>

@@ -35,19 +35,21 @@
 
 .card {
   width: 525px;
-  height: 438px;
+  height: 450px;
+  padding: 20px 0px;
   background-color: #ffffff;
   border-radius: 16px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .card p {
   font-size: 26px;
   width: 445px;
   margin: 0;
+  text-align: justify;
 }
 
 .circle {
@@ -93,7 +95,8 @@
 
   .card {
     width: calc(525px * var(--factor));
-    height: calc(438px * var(--factor));
+    height: calc(450px * var(--factor));
+    padding: calc(30px * var(--factor)) 0px;
     border-radius: calc(16px * var(--factor));
     gap: calc(60px * var(--factor));
   }
