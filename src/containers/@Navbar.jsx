@@ -14,29 +14,6 @@ export default function Navbar() {
     setDropdownOpen(!isDropdownOpen);
   };
 
-  useEffect(() => {
-    window.addEventListener("scroll", handleScroll);
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, [prevScrollPos, visible]);
-
-  const handleScroll = () => {
-    const currentScrollPos = window.pageYOffset;
-
-    // Limita o desaparecimento da barra de navegação após rolar 120px
-    const scrollThreshold = 55;
-
-    if (currentScrollPos < scrollThreshold) {
-      setVisible(true); // Mantém a barra de navegação visível
-    } else {
-      const visible = prevScrollPos > currentScrollPos;
-      setVisible(visible);
-    }
-
-    setPrevScrollPos(currentScrollPos);
-  };
-
   const scrollToSection = (sectionId) => {
     const section = document.getElementById(sectionId);
     if (section) {
