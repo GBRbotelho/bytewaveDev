@@ -4,7 +4,7 @@ import styles from "./Container6.module.css";
 export default function Container6() {
   return (
     <section className={styles.section}>
-      <div className={styles.container}>
+      <div className={styles.container} data-aos="fade-up-right">
         <div className={styles.text}>
           <p>
             Faça um orçamento totalmente gratuito que pode mudar como seus

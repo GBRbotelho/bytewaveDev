@@ -25,7 +25,7 @@ export default function Container5() {
 
   return (
     <section className={styles.section} id="clientes">
-      <div className={styles.container}>
+      <div className={styles.container} data-aos="fade-up-right">
         <div className={styles.divTitle}>
           <h2 className={styles.title}>O que nossos clientes dizem?</h2>
         </div>

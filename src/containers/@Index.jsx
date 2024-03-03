@@ -21,7 +21,7 @@ export default function Index() {
       <Container2 />
       <Container3 />
       <Container4 />
-      <div className={styles.background2}>
+      <div className={styles.background2} data-aos="fade-up-right">
         <Container5 />
         <Container6 />
       </div>

@@ -6,7 +6,7 @@ import Logo from "../assets/imgs/Bytewave.png";
 export default function Container7() {
   return (
     <section className={styles.section} id="sobre">
-      <div className={styles.container}>
+      <div className={styles.container} data-aos="fade-up-right">
         <div className={styles.logo}>
           <img src={Logo} alt="Logo Bytewave" />
         </div>

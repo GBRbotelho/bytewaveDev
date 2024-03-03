@@ -6,7 +6,7 @@ import icon from "../assets/imgs/7.svg";
 export default function Container4() {
   return (
     <section className={styles.section}>
-      <div className={styles.container}>
+      <div className={styles.container} data-aos="fade-up-right">
         <div className={styles.title}>
           <p>Esta na duvida do qual dessas soluções você realmente precisa?</p>
         </div>

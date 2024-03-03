@@ -10,12 +10,12 @@ import icon4 from "../assets/imgs/6.svg";
 export default function Container2() {
   return (
     <section className={styles.section} id="servicos">
-      <div className={styles.container}>
+      <div className={styles.container} data-aos="fade-up-right">
         <div className={styles.divTitle}>
           <h2 className={styles.title}>Quais nossos serviços?</h2>
         </div>
-        <div className={styles.divCards}>
-          <div className={styles.card}>
+        <div className={styles.divCards} data-aos="fade-up-right">
+          <div className={styles.card} data-aos="fade-up-right">
             <div>
               <img src={icon1} alt="Icone Landing Page" />
             </div>
@@ -25,7 +25,7 @@ export default function Container2() {
               única pagina.
             </p>
           </div>
-          <div className={styles.card}>
+          <div className={styles.card} data-aos="fade-up-right">
             <div>
               <img src={icon2} alt="Icone Institucional" />
             </div>
@@ -35,7 +35,7 @@ export default function Container2() {
               serviços.
             </p>
           </div>
-          <div className={styles.card}>
+          <div className={styles.card} data-aos="fade-up-right">
             <div>
               <img src={icon3} alt="Icone Blogs e Portais" />
             </div>
@@ -46,7 +46,7 @@ export default function Container2() {
               importantes.
             </p>
           </div>
-          <div className={styles.card}>
+          <div className={styles.card} data-aos="fade-up-right">
             <div>
               <img src={icon4} alt="Icone Sistemas" />
             </div>

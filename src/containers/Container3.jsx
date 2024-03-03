@@ -17,11 +17,11 @@ import seta4 from "../assets/imgs/19.png";
 export default function Container3() {
   return (
     <section className={styles.section} id="servicos">
-      <div className={styles.container}>
-        <div className={styles.divTitle}>
+      <div className={styles.container} data-aos="fade-up-right">
+        <div className={styles.divTitle} data-aos="fade-up-right">
           <h2 className={styles.title}>Como fazemos nosso processo?</h2>
         </div>
-        <div className={styles.containerCards}>
+        <div className={styles.containerCards} data-aos="fade-up-right">
           <div className={styles.divCard}>
             <div className={styles.card}>
               <div className={styles.titleCard}>

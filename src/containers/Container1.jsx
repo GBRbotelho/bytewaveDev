@@ -9,7 +9,7 @@ export default function Container1() {
     <section className={styles.section} id="home">
       <div className={styles.container}>
         <div className={styles.div1}>
-          <div className={styles.cardDiv1}>
+          <div className={styles.cardDiv1} data-aos="fade-up-right">
             <div className={styles.dataCardDiv1}>
               <h1>Expanda sua empresa com nossas soluções</h1>
               <p>
@@ -23,7 +23,7 @@ export default function Container1() {
           </div>
         </div>
         <div className={styles.div2}>
-          <div className={styles.cardDiv2}>
+          <div className={styles.cardDiv2} data-aos="fade-up-left">
             <div className={styles.cardImgs}>
               <div className={styles.divImgs1}>
                 <div className={styles.img1}></div>
