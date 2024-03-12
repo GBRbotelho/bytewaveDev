@@ -61,14 +61,14 @@ export default function Container5() {
             </div>
             <div className={styles.card}>
               <p>
-                "Otima empresa e bem atenciosos, foram muito transparentes e
-                rapidos na entrega do site."
+                "Me atenderam super bem, sempre me apresentando ótimos
+                resultados e atendendo minhas necessidades. Super indico."
               </p>
               <div className={styles.dataCard}>
                 <div className={styles.circle}>
-                  <img src={img3} alt="Foto Comentario" />
+                  <img src={img4} alt="Foto Comentario" />
                 </div>
-                <p>Lucila Martins</p>
+                <p>Elaine Rodrigues</p>
                 <span>CEO</span>
               </div>
             </div>
